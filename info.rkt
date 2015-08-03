@@ -37,3 +37,15 @@
 
 ;; Client configuration
 ;(define password-keep-minutes 5) ; client remembers entered password 5 mins
+
+;; Package dependencies
+(define deps '("base"
+               "drracket"
+               "drracket-plugin-lib"
+               "gui-lib"
+               "net-lib"
+
+               ;; Extra packages uses by the course:
+               "plai-typed"
+               "plai-typed-s-exp-match"
+               "plai-lazy"))
