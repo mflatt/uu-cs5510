@@ -46,6 +46,6 @@
                "net-lib"
 
                ;; Extra packages uses by the course:
-               "plai-typed"
+               ["plai-typed" #:version "1.1"]
                "plai-typed-s-exp-match"
                "plai-lazy"))
